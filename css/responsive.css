@@ -37,8 +37,23 @@
         flex-direction: column;
         gap: 5px;
         margin: 5px;
-        width: 90%;
-        min-height: 210px;
+        width: 80%;
+        min-height: 220px;
+    }
+    .item-btn{
+        min-width: 350px;
+      margin-left: -15px; 
+     
+        transform: translate(-45px, 5px);    
+           
+    }
+    .fa-magnifying-glass{
+        z-index: 1;
+        transform: translate(35px, 10px);  
+    }
+
+    .gallery-box{
+        grid-column: 1/-1;
     }
     .tour-text-container *{
        margin-bottom: 5px;
@@ -58,5 +73,51 @@
     .tour-img{
         width: 100%;
         padding: 10px;
+    }
+    .destination-content{
+        padding: 20px;
+    }
+    .destination-item-1{
+        flex-direction: column;
+    }
+    .destination-item-2{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .destination-row-3{
+        flex-direction: column;
+    }
+    .choose-option{
+        margin: 20px auto;
+    }
+    .choose-container{
+        padding: 20px;
+    }
+    .choose{
+        flex-direction: column;
+    }
+    .choose-content{
+        width: 100%;
+    }
+    .tour-video{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .news-letter .news-letter-form{
+        width: 100%;
+    }
+    .news-letter{
+        flex-direction: column;
+        
+    }
+    .news-letter .news-letter-image{
+        width: 100%;
+    }
+    .news-letter .news-letter-image img{
+        width: 500px;
+        margin-right: 20px;
+    }
+    .footer-content{
+        width: 100%;
     }
 }
