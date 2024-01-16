@@ -1,4 +1,237 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+    font-family: Mulish;
 }
+/****sheared style****/
+
+h1{
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+}
+h2{ 
+    color: #131318;
+    font-size: 2.4rem;
+    font-weight: 800;
+}
+p{
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.8;   
+}
+.btn-primary{
+    border-radius: 8px;
+    background: #FF5400;
+    padding: 14px 35px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 800;
+    border: none;
+    color: #FFF;
+}
+/* **header*nav styles** */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 85%;
+    margin: 0px auto;
+        
+}
+nav > ul{
+    display: flex;
+    gap: 40px;
+  }
+  
+ .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70px;
+    gap: 20px;
+}
+.logo-section{
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+.logo img{
+    max-width: 100px;
+    cursor: pointer;
+}
+.logo h2{
+    color: #131318;
+    font-size: 2rem;
+    font-weight: 800;
+}
+   
+.logo h2 span{
+    color: #FF5400;
+    font-size: 36px;
+    font-weight: 800;
+}
+.menubar{
+    font-size: 2rem;
+    display: none;
+}
+
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    color:  #424247; 
+    font-size: 1rem;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover{   
+    color:#FF5400;
+}
+/* ****header style end**** */
+/* ****banner style start*** */
+main{
+    max-width: 85%;
+    margin: 50px auto;
+}
+.banner-section{
+    border-radius: 16px;
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../Images/banner.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+    gap: 20px;
+    height: 500px;
+}
+.banner-container{
+    text-align: center;
+    color: #fff;
+    padding: 50px  130px 0px;
+    min-height: 200px;
+}
+
+.banner-container h1{
+    color: #FFF;
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+.banner-container p{
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.8;
+}
+
+
+.search-item{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    gap: 24px;
+    height: 70px;  
+    width: 80%; 
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 1rem;
+    font-weight: 400;
+}
+.item p{
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 1rem;
+    font-weight: 400;
+}
+/* ****tours style start*** */
+
+.tour-section{
+    max-width: 100%;
+    min-height: 500px;
+    margin: 100px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+}
+.tour-text-container{
+    width: 48%;
+    height: 500px;
+}
+.tour-text-container *{
+    margin-bottom: 17px;
+     color: rgba(19, 19, 24, 0.70);;
+}
+
+.tour-text-container h2{
+    color: #131318;
+    font-size: 2.4rem;
+    font-weight: 800;   
+}
+.tour-text-container .tour-list{
+    padding-left: 20px;
+
+}
+
+.tour-img{
+    width: 48%;
+    height: 500px;
+}
+.tour-img img{
+    width: 100%;
+   height: 500px;
+}
+
+/* ***tour style end*** */
+/* ***destination style start** */
+.choose-destination{
+    max-width: 100%;
+    height: 700px;
+    border: 2px solid red;
+}
+.destination-content{
+    text-align: center;
+    padding: 20px 130px;
+}
+
+.destination-content-img{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+/* ***destination style end** */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
