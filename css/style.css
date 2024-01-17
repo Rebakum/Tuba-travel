@@ -329,7 +329,46 @@ form > input[type=text] , select {
     background-color: #29cdf618; 
 }
   /* ******* why choose***** */
+  /***** more-explore start*** */
+  .more-explore-section{
+    width: 100%;
+    height: 500px;
+    margin: 100px 0px 200px;
+}
+.more-explore{
+    text-align: center;
+     margin-bottom: 100px;
+}
 
+.explore-img{  
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding-right: 50px;
+        margin-left: -50px;
+}
+.explore{
+    width: 20%;
+    height:100% ;
+}
+.explore img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    box-shadow: 1px 2px 3px 0px;
+    transition: 0.5s;
+    transform: rotate(15deg) scale(1) translate(100px);
+
+}
+.explore-img img:hover{
+    transform: rotate(10deg) scale(1.2) translate(100px);
+}
+
+
+  /***** more-explore end*** */
   /* *****deals & discount**** */
 .deals-discounts{
     width: 100%;
@@ -383,14 +422,13 @@ color: #131318;
     gap: 30px;
 }
 
-  /* *****deals & discount**** */
+  /* *****deals & discount end**** */
 
 /* *****Perfect Place ******* */
 .perfect place{
     max-width: 100%;
     margin: 0px auto;
     padding: 0px auto;
-
 }
  .perfect .perfect-btn{
     margin-top: 50px;
