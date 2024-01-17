@@ -8,6 +8,7 @@
 
 
 @media screen and (max-width:600px) {
+    
     nav >ul{
         display: none;
     }
@@ -87,6 +88,15 @@
     .choose-content{
         width: 100%;
     }
+    .deals-content{
+        width: 100%;
+        padding: 10px;
+        transform: translate(0%, 50%);
+    }
+    .deals-content-img{
+        flex-direction: row;
+        gap: 5px;
+    }
     .tour-video{
         width: 100%;
         margin-top: 20px;
@@ -102,9 +112,10 @@
         width: 100%;
     }
     .news-letter .news-letter-image img{
-        width: 500px;
-        margin-right: 20px;
+        width: 490px;
+        
     }
+      
     .footer-content{
         width: 100%;
     }

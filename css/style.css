@@ -332,12 +332,13 @@ form > input[type=text] , select {
 
   /* *****deals & discount**** */
 .deals-discounts{
-    padding: 100px auto;
+    width: 100%;
+   
 }
 .deals-discounts-container{
-    width: 60%;
-    display: flex;
-    flex-direction: row;
+     margin: 100px auto;
+    text-align: center;
+   
 }
 .deals-discounts-container h1{
 color: #131318;
@@ -345,7 +346,42 @@ color: #131318;
 .deals-discounts-container p{
     color: #131318;
 }
+.deals-container{
+    width: 100%;
+    height: 500px;
+    background-image: url(../Images/tour2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 100px auto;
+    border-radius: 8px;
+}
+.tour-place{
+    background-image: url(../Images/tour1.png);
+}
 
+.deals-content{
+    width: 50%;
+    height: 350px; 
+    border-radius: 16px;
+    border: 2px solid #ac0b0b;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 0px 80px 0px 30px;
+    box-shadow: 0px 1px 10px 0px;
+    transform: translate(90%, 22%);
+}
+.tour-place-content{
+    transform: translate(10%, 22%);
+
+}
+.deals-content *{
+   margin-top: 10px;
+}
+.deals-content-img{
+    display: flex;
+    gap: 30px;
+}
 
   /* *****deals & discount**** */
 
